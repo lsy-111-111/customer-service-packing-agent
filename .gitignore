@@ -1,0 +1,38 @@
+# Local configuration, credentials and runtime state
+.env
+.env.*
+!.env.example
+api密钥.rtfd/
+.local/
+data/
+uploads/
+backups/
+archives/
+outputs/
+*.sqlite*
+*.db
+*.db-*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+
+# Dependencies and generated assets
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+frontend/public/pdfjs/
+*.tsbuildinfo
+frontend/test-results/
+frontend/playwright-report/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
